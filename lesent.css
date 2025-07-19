@@ -208,12 +208,6 @@ audio {
     opacity: 0.8;
 }
 
-.front  { background-image: url('led.png'); transform: rotateY(0deg) translateZ(100px); }
-.back   { background-image: url('Kagari.jpg'); transform: rotateY(180deg) translateZ(100px); }
-.right  { background-image: url('led.png'); transform: rotateY(90deg) translateZ(100px); }
-.left   { background-image: url('Kagari.jpg'); transform: rotateY(-90deg) translateZ(100px); }
-.top    { background-image: url('led.png'); transform: rotateX(90deg) translateZ(100px); }
-.bottom { background-image: url('Kagari.jpg'); transform: rotateX(-90deg) translateZ(100px); }
 
 @keyframes rotateCube {
     0% { transform: rotateX(0deg) rotateY(0deg); }
