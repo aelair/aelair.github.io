@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: url('liq.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#star-dust {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.fall {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 200%;
+    background-image: url('fep.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    animation: flowUp 5s linear infinite;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.fall2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 200%;
+    background-image: url('stripe.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    animation: flowUp 5s linear infinite;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.fall3 {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    width: 200px;
+    height: 200%;
+    object-fit: cover;
+    animation: flowUp 5s linear infinite;
+    opacity: 0.4;
+    z-index: 0;
+    border: none;
+}
+
+.fall4 {
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 0;
+    width: 150px;
+    height: 200%;
+    background-image: url('Kagari.jpg');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    animation: flowUp 5s linear infinite;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.fall5 {
+    position: absolute;
+    right: 25%;
+    top: 0;
+    width: 250px;
+    height: 200%;
+    background-image: url('Kagari.jpg');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    animation: flowUp 5s linear infinite;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+@keyframes flowUp {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+}
+
+.video-player {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 200px);
+    width: 400px;
+    max-width: 90%;
+    z-index: 1;
+    border: none;
+    border-top: 30px solid transparent;
+    border-image: url('ter.png') 30 stretch;
+    border-image-width: 30px 0 0 0;
+    border-image-slice: 30;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.controls {
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.controls label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.controls input[type="range"] {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.button-group {
+    margin-top: 12px;
+}
+
+.button-group button {
+    padding: 10px 18px;
+    margin-right: 12px;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 1px solid #ffb3ba;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.toggles-hidden .toggle-button {
+    display: none;
+}
+
+.sfx-button {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sfx-button img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffb3ba;
+    border-radius: 6px;
+}
+
+.sfx-button img:hover {
+    border-color: #f4e4b8;
+}
+
+audio {
+    display: none;
+}
+
+.cube-container {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    z-index: 1;
+    cursor: grab;
+    transform: translate(50vw, 50vh);
+}
+
+.cube-container:active {
+    cursor: grabbing;
+}
+
+.cube {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotateCube 12s linear infinite;
+}
+
+.face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.front  { background-image: url('led.png'); transform: rotateY(0deg) translateZ(100px); }
+.back   { background-image: url('Kagari.jpg'); transform: rotateY(180deg) translateZ(100px); }
+.right  { background-image: url('led.png'); transform: rotateY(90deg) translateZ(100px); }
+.left   { background-image: url('Kagari.jpg'); transform: rotateY(-90deg) translateZ(100px); }
+.top    { background-image: url('led.png'); transform: rotateX(90deg) translateZ(100px); }
+.bottom { background-image: url('Kagari.jpg'); transform: rotateX(-90deg) translateZ(100px); }
+
+@keyframes rotateCube {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+}
