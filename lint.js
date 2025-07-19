@@ -43,7 +43,7 @@ if (starCanvas && starCtx) {
     starCanvas.height = window.innerHeight;
 
     const particles = [];
-    const particleCount = 9000;
+    const particleCount = 2000;
 
     class Particle {
         constructor() {
