@@ -1,0 +1,135 @@
+{
+  "character": {
+    "name": "Koneko Toujou",
+    "birth_name": "Shirone",
+    "alias": "Shirone Toujou",
+    "species": "Reincarnated Devil (Nekoshou/Nekomata)",
+    "gender": "Female",
+    "age": 15,
+    "occupation": "Student, Member of Occult Research Club, Rias Gremory's Rook",
+    "affiliation": [
+      "Kuoh Academy",
+      "Occult Research Club",
+      "Gremory Clan",
+      "DxD Team"
+    ],
+    "description": "Koneko Toujou is a petite, first-year (later second-year) student at Kuoh Academy and a member of the Occult Research Club. As a Nekoshou, a rare type of Nekomata, she serves as Rias Gremory's Rook, boasting exceptional physical strength and defense. Initially cold and reserved due to past trauma, she undergoes significant character development, becoming more expressive and showing affection toward Issei Hyoudou.",
+    "appearance": {
+      "height": "138 cm (4 feet 6 inches)",
+      "weight": "31 kg (68 lbs)",
+      "body_measurements": {
+        "bust": "67 cm (26 inches)",
+        "waist": "57 cm (22 inches)",
+        "hips": "73 cm (29 inches)"
+      },
+      "hair": "White, with two long bangs past shoulders and a short bob cut at the back, black cat-shaped hair clips on both sides",
+      "eyes": "Hazel (gold in some descriptions)",
+      "usual_attire": "Kuoh Academy girls' school uniform (without shoulder cape)",
+      "nekomata_form": {
+        "features": ["Pair of white cat ears", "Multiple white tails (up to three in Volume 24)", "Cat-like pupils"],
+        "combat_attire": "Black fingerless combat gloves with pink cat pawprints (in some battles)"
+      },
+      "shirone_mode": {
+        "description": "An older appearance achieved by synchronizing natural ki with Touki",
+        "attire": "Short white kimono, light blue skirt",
+        "bust_size": "Significantly larger, resembling her sister Kuroka"
+      }
+    },
+    "personality": {
+      "initial": ["Cold", "Quiet", "Emotionally reserved", "Serious"],
+      "developed": ["Cat-like", "Affectionate (especially toward Issei)", "Protective", "Gluttonous (loves snacks and gourmet food)"],
+      "traits": [
+        "Dislikes being called a midget or flat-chested",
+        "Respects hard work and perseverance",
+        "Loyal to comrades",
+        "Tsundere tendencies"
+      ],
+      "mbti": "ISTP (Introverted, Sensing, Thinking, Perceiving)",
+      "enneagram": "Type Six (The Loyalist)",
+      "zodiac": "Scorpio"
+    },
+    "abilities": {
+      "rook_traits": ["Enhanced strength", "Enhanced defense"],
+      "nekomata_abilities": [
+        "Senjutsu (detects and manipulates ki, but risks absorbing malice if overused)",
+        "Youjutsu",
+        "Nekomata Mode (grows cat ears and tails, enhances physical abilities)",
+        "Nekomata Mode Level 2 (covers body in Touki, gains explosive power, adds a second tail)",
+        "Shirone Mode (temporary older form with enhanced power)",
+        "Kasha (summons a wheel covered in white flames with purification powers)"
+      ],
+      "other_abilities": [
+        "Flight (as a Devil)",
+        "Super speed (massively hypersonic in close combat)",
+        "Super durability (town to island level)",
+        "Skilled martial artist",
+        "Shapeshifting",
+        "Invisibility",
+        "Teleportation",
+        "Elemental manipulation",
+        "Resistance to fire, cold, magic, mind, and soul attacks"
+      ],
+      "weaknesses": [
+        "Vulnerable to light-based attacks",
+        "Shirone Mode limited to a few minutes"
+      ]
+    },
+    "relationships": {
+      "family": {
+        "sister": "Kuroka (elder sister, Nekoshou)",
+        "parents": {
+          "father": "Unnamed human scientist",
+          "mother": "Fujimai (Nekomata)"
+        }
+      },
+      "romantic": {
+        "fiancé": "Issei Hyoudou",
+        "notes": "Develops strong romantic feelings for Issei after overcoming Senjutsu fears, enters mating season in Volume 11 (stopped by Kuroka)"
+      },
+      "allies": [
+        "Rias Gremory (master)",
+        "Issei Hyoudou",
+        "Akeno Himejima",
+        "Yuuto Kiba",
+        "Asia Argento",
+        "Xenovia Quarta",
+        "Gasper Vladi",
+        "Rossweisse",
+        "Sirzechs Lucifer (savior)"
+      ],
+      "enemies": [
+        "Riser Phenex (disliked due to past conflicts)",
+        "Ravel Phenex (initially called 'grilled chicken')",
+        "Freed Sellzen"
+      ]
+    },
+    "background": {
+      "origin": "Born as Shirone, a Nekoshou, to a human father and Nekomata mother. After her parents died in an experiment-related accident, she and her sister Kuroka were taken in by a Devil from the House of Naberius. Kuroka killed the Devil to protect Koneko, leading to her being labeled a Stray Devil. Koneko was sentenced to death but saved by Sirzechs Lucifer and placed under Rias Gremory’s care, where she was given the name Koneko.",
+      "trauma": "Witnessing her sister’s supposed betrayal caused deep depression, stripping her of emotions until Rias helped her recover.",
+      "development": "Overcomes fear of Senjutsu with Issei’s help in Volume 5, becomes more expressive, and later reconciles with Kuroka, adopting her birth name Shirone Toujou in Volume 24."
+    },
+    "notable_equipment": {
+      "familiar": "Shiro (white cat-shaped familiar)",
+      "combat_gloves": "Black fingerless gloves with pink cat pawprints"
+    },
+    "voice_actors": {
+      "japanese": "Ayana Taketatsu",
+      "english": "Jad Saxton"
+    },
+    "media": {
+      "series": "High School DxD",
+      "medium": ["Light Novel", "Anime", "Manga"],
+      "first_appearance": "Volume 1 (Light Novel), 2008"
+    },
+    "popularity": {
+      "rankings": {
+        "DxD_popularity_election": {
+          "all_characters": 4,
+          "heroine_category": 3,
+          "coupling_with_Issei": 6
+        }
+      },
+      "notes": "Known for her kuudere personality and savage one-liners, especially in the English dub."
+    }
+  }
+}
