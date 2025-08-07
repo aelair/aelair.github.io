@@ -1,0 +1,50 @@
+{
+  "character": {
+    "name": "Special Agent Oso",
+    "species": "Panda",
+    "occupation": "Special Agent",
+    "affiliation": "UNIQUE (United Network of Intelligence and Quick Undercover Enforcement)",
+    "description": "A lovable, yellow panda who works as a special agent, helping children complete tasks through 'three special steps' while learning problem-solving skills.",
+    "appearance": {
+      "color": "Yellow",
+      "clothing": "Black vest with UNIQUE badge, occasionally a green backpack",
+      "features": "Round face, black eye patches, small black ears"
+    },
+    "personality": [
+      "Kind-hearted",
+      "Helpful",
+      "Determined",
+      "Slightly clumsy"
+    ],
+    "skills": [
+      "Problem-solving",
+      "Following step-by-step instructions",
+      "Using gadgets provided by Paw Pilot"
+    ],
+    "gadgets": [
+      {
+        "name": "Paw Pilot",
+        "description": "A device that provides Oso with mission details and 'three special steps' to complete tasks"
+      },
+      {
+        "name": "Training Vest",
+        "description": "Equipped with tools and gadgets for missions"
+      }
+    ],
+    "allies": [
+      "Paw Pilot",
+      "Mr. Dos",
+      "Wolfie",
+      "Dotty",
+      "Professor Buffo"
+    ],
+    "show": {
+      "title": "Special Agent Oso",
+      "network": "Disney Junior",
+      "target_audience": "Preschoolers",
+      "premise": "Oso helps children with everyday tasks by breaking them into three simple steps, often while completing his own training missions."
+    },
+    "voice_actor": "Sean Astin",
+    "first_appearance": "2009"
+  }
+}
